@@ -24,7 +24,7 @@ input[type=text] {
   outline:transparent;
   font-size:2em;
   text-align: center;
-  text-shadow: 2px 4px 5px rgba(0,0,0,1);
+  text-shadow: 2px 4px 5px rgba(0,0,0,.2);
   border-top:none;
   border-left:none;
   border-right:none;
@@ -50,7 +50,6 @@ button {
     background-color: transparent; 
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
     z-index: -1;
 }
 .clock {
@@ -109,11 +108,8 @@ button {
   align-items:center;
   justify-content: center;
 }
-.weatherIcon span {
-  /*position:relative;*/
-}
-.weatherIcon img {
-  /*position:absolute;*/
+.resetter {
+  padding:1em;
 }
 /*Visualization control*/
 .appear {

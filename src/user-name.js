@@ -27,10 +27,28 @@ function handleSubmit (e) {
     localStorage.setItem('USERNAME',input.value);
     loadUser();
 }
-
-
+function makeResetter () {
+    rst = document.createElement('button');
+    rst.setAttribute('class','resetter');
+    document.body.appendChild(rst);
+    rst.style.order="1000";
+    rst.innerText = "Clear everything?";
+    rst.addEventListener('click',(v)=>{
+        localStorage.clear();
+        location.href = location.href;
+    })
+    rst.addEventListener('mouseover',(v)=>{
+        console.log(v.target);
+        v.target.style.color="white";
+    });
+    rst.addEventListener('mouseleave',(v)=>{
+        console.log(v.target);
+        v.target.style.color="black";
+    });
+}
 function init () {
     loadUser();
     makeUserName();
+    makeResetter();
 }
 init();

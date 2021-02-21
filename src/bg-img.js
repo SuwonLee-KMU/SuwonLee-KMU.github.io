@@ -10,7 +10,6 @@ const imgUrlList = [
 ]
 
 function setBackgroundImage () {
-
     let i = Math.ceil(Math.random()*imgUrlList.length-1)  ;
     bg.style.backgroundImage = `url(${imgUrlList[i]})`;
 }
