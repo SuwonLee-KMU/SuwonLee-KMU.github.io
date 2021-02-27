@@ -56,23 +56,59 @@ function handleDelete (e) {
     localStorage.setItem('TODO', JSON.stringify(todoList));
 }
 function handleCheck (e) {
-    if (e.target.status === "off") {
+    if (e.target.getAttribute('status') === "off") {
         e.target.innerText = '✅';
-        e.target.status = "on";
+        e.target.setAttribute('status', 'on');
         e.target.parentNode.querySelector('span').style.textDecoration="line-through";
 
     } else {
         e.target.innerText = '⬜';
-        e.target.status = "off"
+        e.target.setAttribute('status', 'off');
         e.target.parentNode.querySelector('span').style.textDecoration="none";
     }
+    const checkList = scanChecked();
+    saveChecked(checkList);
 }
 
+function scanChecked () {
+    const currentCheckBtns = document.querySelectorAll('.checkBtn');
+    let checkList = [];
+    currentCheckBtns.forEach((v)=> {
+        if (v.getAttribute('status') === 'on') {
+            checkList.push(1);
+        } else {
+            checkList.push(0);
+        };
+    });
+    return checkList
+}
+
+function saveChecked (checkList) {
+    localStorage.setItem('checkList', JSON.stringify(checkList));
+}
+
+function loadChecked () {
+    checkedListFromLS = localStorage.getItem('checkList');
+    if (checkedListFromLS !== null) {
+        const parsedChecked = JSON.parse(checkedListFromLS);
+        checkedList = parsedChecked;
+        updateChecked(checkedList);
+    }
+}
+function updateChecked (checkList) {
+    const currentCheckBtns = document.querySelectorAll('.checkBtn');
+    for (let id=0;id<checkList.length;id++) {
+        if (checkList[id] === 1) {
+            currentCheckBtns[id].click();
+        }
+    }
+}
 function init () {
     myList = document.createElement('ul');
     myList.style.listStyle = 'none';
     todo.appendChild(myList);
     loadTodos();
+    loadChecked();
     todoForm.addEventListener('submit',handleSubmit);
 }   
 

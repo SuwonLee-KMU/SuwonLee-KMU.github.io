@@ -8,7 +8,7 @@ function getWeather(lat, lon){
         return response.json();
     })
     .then(function(json) {
-        console.log(json);
+        // console.log(json);
         const temperature = json.main.temp;
         const place = json.name;
         weather.innerText = `${temperature}℃ @ ${place}`;
@@ -16,7 +16,7 @@ function getWeather(lat, lon){
         weatherIcon.setAttribute('class','weatherIcon');
         weather.appendChild(weatherIcon);
         const icon = json.weather[0].icon;
-        console.log(json.weather[0].icon);
+        // console.log(json.weather[0].icon);
         weatherIcon.innerHTML = `<img src='http://openweathermap.org/img/wn/${icon}@2x.png'></img>`;
         weatherIcon.addEventListener('mouseenter',(v)=>{
             v.target.innerHTML = `${json.weather[0].main}`;
@@ -56,7 +56,7 @@ function loadCoords(){
         askForCoords();
     } else {
         const parsedCoords = JSON.parse(loadedCoords);
-        console.log(parsedCoords);
+        // console.log(parsedCoords);
         getWeather(parsedCoords.latitude,parsedCoords.longitude);
     }
 }
