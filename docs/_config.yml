@@ -36,6 +36,13 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+except_separator: "\n\n"
+incremental: false
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
