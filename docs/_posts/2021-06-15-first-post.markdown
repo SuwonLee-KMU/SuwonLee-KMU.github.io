@@ -12,3 +12,9 @@ categories: jekyll update
 경력사항 등은 CV에서, 연락처는 Contact에서, 저의 현재 상태는 About에서 확인하실 수 있어요.
 
 관심 갖고 방문해주신 모든 분들께 감사드립니다 😊.
+
+The purpose of this website is my portfolio for the people who want to know about me and my works.
+
+There are CV, contacts, and About pages on this website.
+
+Thanks for visiting!

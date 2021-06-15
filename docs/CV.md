@@ -14,7 +14,7 @@ permalink: /CV/
 
 ## Experiences
 
-- 2021.03.01 - Current: Staff Engineer, System Development, Smart Equipment Technology Team, Mechatronics R&D Center
+- 2021.03.01 - Current: Staff Engineer, System Development, Smart Equipment Technology Team, Mechatronics R&D Center, Samsung Electronics
 
 - 2015.03.01 - 2021.02.28: Flight Dynamics and Control Lab, Seoul National University
 

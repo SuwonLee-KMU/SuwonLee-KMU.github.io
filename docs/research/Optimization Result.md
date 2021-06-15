@@ -5,6 +5,20 @@ permalink: /optimization_result/
 use_math: true
 ---
 
+## Parameters
+
+- $V = 200$m/s
+
+- $J = \sum_{i=1}^{3} w_i J_i$
+
+  - $J_1 = \int_{t_0}^{t_f} \dot{\gamma}(t) dt$
+
+  - $J_2 = \max(\|\sigma(t)\|)$
+
+  - $J_3 = \max(\|\dot{\gamma}(t)\|)$
+
+- $[t_0,t_f] = [0,50]$ sec (fixed time)
+
 ## Determine proper Bezier degree
 
 ```
