@@ -122,6 +122,16 @@ $a(t) = V\dot{\gamma}(t)$
 ![la](Optimization Result.assets/lookangle_int.png)
 ![acc](Optimization Result.assets/acc_int.png)
 
+### Optimization Result with Denser Sampling
+
+(Spikes are alleviated)
+
+![range_inta_dense](Optimization Result.assets/range_inta_dense.png)
+
+![lookangle_inta_dense](Optimization Result.assets/lookangle_inta_dense.png)
+
+![acc_inta_dense](Optimization Result.assets/acc_inta_dense.png)
+
 ## 2. max(abs(acc))
 
 ```
@@ -146,6 +156,13 @@ $a(t) = V\dot{\gamma}(t)$
 ![la](Optimization Result.assets/lookangle_acc.png)
 ![acc](Optimization Result.assets/acc_acc.png)
 
+### Optimization Result with Denser Sampling
+
+(Spikes are alleviated)
+
+![range_maxacc_dense](Optimization Result.assets/range_maxacc_dense.png)
+![lookangle_maxacc_dense](Optimization Result.assets/lookangle_maxacc_dense.png)
+![acc](Optimization Result.assets/acc_maxacc_dense.png)
 
 
 ## 3. max(abs(look_angle))
@@ -171,4 +188,10 @@ $a(t) = V\dot{\gamma}(t)$
 ![range](Optimization Result.assets/range_lookangle.png)
 ![la](Optimization Result.assets/lookangle_lookangle.png)
 ![acc](Optimization Result.assets/acc_lookangle.png)
+
+### Optimization Result with Denser Sampling
+
+![range_maxlookangle_dense](Optimization Result.assets/range_maxlookangle_dense.png)
+![lookangle_maxlookangle_dense](Optimization Result.assets/lookangle_maxlookangle_dense.png)
+![acc](Optimization Result.assets/acc_maxlookangle_dense.png)
 
