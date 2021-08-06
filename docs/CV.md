@@ -22,7 +22,7 @@ permalink: /CV/
 
 ## International Journal Articles
 
-- **Suwon Lee**, Jae Hong Lee, Youdan Kim, and Chan Gook Park, “Information Fusion for Cooperative Inddor Positioning Using Bezier Curves,” IEEE Sensors Journal, accepted for publication, 2021.
+- **Suwon Lee**, Jae Hong Lee, Youdan Kim, and Chan Gook Park, “Information Fusion for Cooperative Indoor Positioning Using Bezier Curves,” IEEE Sensors Journal, accepted for publication, 2021.
 
 - **Suwon Lee**, Youngjun Lee, Seokwon Lee, Youdan Kim, Yongsu Han, and Jangseong Park, “Data-driven Capturability Analysis for Pure Proportional Navigation Guidance Considering Target Maneuver,” International Journal of Aeronautical and Space Sciences, accepted for publication, 2021.
 
@@ -114,6 +114,10 @@ DOI: https://doi.org/10.1109/ACCESS.2021.3060061
 **A Study on Control System Using Strapdown Seeker with Multi-division Field-of-View**, February 2019-December 2019, supported by High-speed Vehicle Research Center of the Agency for Defense Development.
 
 **A Study on Trajectory Generation and Improved Guidance/Control System for Precision Guided Munition**, March 2017-December 2019, supported by LIG Nex1 Corporation.
+
+
+**A Study on Mission Trajectory Design for Unpowered Precision Guided Munition**, March 2016-December 2016, supported by LIG Nex1 Corporation.
+
 
 **Development of Guidance, Navigation, and Control Algorithms and Corresponding Source Code for Experimental Lunar Orbiter**, March 2015-June 2017, supported by National Research Foundation of Korea.
 
