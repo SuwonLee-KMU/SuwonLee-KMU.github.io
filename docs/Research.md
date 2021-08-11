@@ -15,3 +15,5 @@ permalink: /Research/
 ## Nonlinear System Identification
 
 - Nonlinear system identification and function approximation using neural networks
+
+- Neural network-based feedback controller design
