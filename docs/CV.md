@@ -22,9 +22,11 @@ permalink: /CV/
 
 ## International Journal Articles
 
-- **Suwon Lee**, Jae Hong Lee, Youdan Kim, and Chan Gook Park, “Information Fusion for Cooperative Indoor Positioning Using Bezier Curves,” IEEE Sensors Journal, accepted for publication, 2021.
+- **Suwon Lee**, Jae Hong Lee, Youdan Kim, and Chan Gook Park, “Information Fusion for Cooperative Indoor Positioning Using Bezier Curves,” IEEE Sensors Journal, Early Access, 2021.
+  DOI: 10.1109/JSEN.2021.3089107
 
-- **Suwon Lee**, Youngjun Lee, Seokwon Lee, Youdan Kim, Yongsu Han, and Jangseong Park, “Data-driven Capturability Analysis for Pure Proportional Navigation Guidance Considering Target Maneuver,” International Journal of Aeronautical and Space Sciences, accepted for publication, 2021.
+- **Suwon Lee**, Youngjun Lee, Seokwon Lee, Youdan Kim, Yongsu Han, and Jangseong Park, “Data-driven Capturability Analysis for Pure Proportional Navigation Guidance Considering Target Maneuver,” International Journal of Aeronautical and Space Sciences, On-line published, 2021.
+  DOI: 10.1007/s42405-021-00387-7
 
 - Jinrae Kim, **Suwon Lee**, Sangmin Lee, Youdan Kim, and Chanho Song, ” Neural-Network-Based Path Replanning for Gliding Vehicles Considering Terminal Velocity,” IEEE Access, Vol. 9, 2021, pp. 78701-78714.
   DOI: 10.1109/ACCESS.2021.3083734
@@ -36,7 +38,7 @@ permalink: /CV/
   DOI: 10.1109/TAES.2020.3037399
 
 - Jihoon Lee, **Suwon Lee**, Youngjun Lee, Youdan Kim, Yongjun Heo, and Taedong Yoon, “Performance Veriﬁcation of a Target Tracking System with a Laser Rangeﬁnder,” IEEE Access, Vol. 9, 2021, pp. 30993-31009.
-DOI: https://doi.org/10.1109/ACCESS.2021.3060061
+DOI: 10.1109/ACCESS.2021.3060061
 
 - **Suwon Lee**, and Y. Kim, “Vector Field-Based Guidance for Exo-atmospheric Target Interception,” IEEE Transactions on Aerospace and Electronic Systems, accepted for publication, 2020. DOI: 10.1109/TAES.2020.2990260
 
@@ -80,7 +82,7 @@ DOI: https://doi.org/10.1109/ACCESS.2021.3060061
 
 - 김진래, 조남훈, **이수원**, 김유단, “최종 속도조건을 고려한 무추력 비행체의 Pythagorean-Hodograph 곡선 기반 경로계획,” 한국항공우주학회 춘계학술대회, 대명리조트 변산, 부안군, 전라북도, 2019년 4월.
 
-- **이수원**, 김유단, “최종 속력 구속조건을 고려한 무추력 비행체 벡터장 기반 유도기법,” 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주시, 제주도, 2018년 11월.
+- **이수원**, 김유단, “글라이더 비행체의 벡터 기반 비행속력 제어 유도기법,” 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주시, 제주도, 2018년 11월.
 
 - 이재호, 이석원, 안성준, **이수원**, 김유단, “DACS형 대탄도 유도탄의 비선형 외란관측기 기반 각속도 제어기 설계,” 한국항공우주학회 추계학술대회, 라마다프라자 제주호텔, 제주시, 제주도, 2018년 11월.
 
@@ -129,6 +131,8 @@ DOI: https://doi.org/10.1109/ACCESS.2021.3060061
 - 사단법인 한국항공우주학회, 우수논문발표상, 2018년 11월.
 
 - 국토교통부, 항공인력양성사업 항공특성화대학 학술발표대회 우수상, 2017년 2월.
+
+- Samsung Electronics, Sponsorship Program at Device Solutions, 2018년 11월
 
 
 ## Skills & Tools
