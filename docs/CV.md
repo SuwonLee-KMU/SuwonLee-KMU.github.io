@@ -23,28 +23,28 @@ permalink: /CV/
 ## International Journal Articles
 
 - **Suwon Lee**, Jae Hong Lee, Youdan Kim, and Chan Gook Park, “Information Fusion for Cooperative Indoor Positioning Using Bezier Curves,” IEEE Sensors Journal, Early Access, 2021.
-  DOI: 10.1109/JSEN.2021.3089107
+  DOI: [10.1109/JSEN.2021.3089107](https://doi.org/10.1109/JSEN.2021.3089107)
 
 - **Suwon Lee**, Youngjun Lee, Seokwon Lee, Youdan Kim, Yongsu Han, and Jangseong Park, “Data-driven Capturability Analysis for Pure Proportional Navigation Guidance Considering Target Maneuver,” International Journal of Aeronautical and Space Sciences, On-line published, 2021.
-  DOI: 10.1007/s42405-021-00387-7
+  DOI: [10.1007/s42405-021-00387-7](https://doi.org/10.1007/s42405-021-00387-7)
 
 - Jinrae Kim, **Suwon Lee**, Sangmin Lee, Youdan Kim, and Chanho Song, ” Neural-Network-Based Path Replanning for Gliding Vehicles Considering Terminal Velocity,” IEEE Access, Vol. 9, 2021, pp. 78701-78714.
-  DOI: 10.1109/ACCESS.2021.3083734
+  DOI: [10.1109/ACCESS.2021.3083734](https://doi.org/10.1109/ACCESS.2021.3083734)
 
 - **Suwon Lee**, and Youdan Kim, “Optimal Output Trajectory Shaping Using Bezier Curves,” Journal of Guidance, Control, and Dynamics, Vol. 44, No. 5, 2021, pp. 1027-1035.
-  DOI: 10.2514/1.G005887
+  DOI: [10.2514/1.G005887](https://doi.org/10.2514/1.G005887)
 
 - **Suwon Lee**, Youdan Kim, and Chanho Song, “Impact Angle Control Guidance of Glide-Capable Munition Using a Vector Field Approach,” IEEE Transactions on Aerospace and Electronic Systems, Vol. 57, No. 2, 2021, pp. 1069-1083.
-  DOI: 10.1109/TAES.2020.3037399
+  DOI: [10.1109/TAES.2020.3037399](https://doi.org/10.1109/TAES.2020.3037399)
 
 - Jihoon Lee, **Suwon Lee**, Youngjun Lee, Youdan Kim, Yongjun Heo, and Taedong Yoon, “Performance Veriﬁcation of a Target Tracking System with a Laser Rangeﬁnder,” IEEE Access, Vol. 9, 2021, pp. 30993-31009.
-DOI: 10.1109/ACCESS.2021.3060061
+DOI: [10.1109/ACCESS.2021.3060061](https://doi.org/10.1109/ACCESS.2021.3060061)
 
-- **Suwon Lee**, and Y. Kim, “Vector Field-Based Guidance for Exo-atmospheric Target Interception,” IEEE Transactions on Aerospace and Electronic Systems, accepted for publication, 2020. DOI: 10.1109/TAES.2020.2990260
+- **Suwon Lee**, and Y. Kim, “Vector Field-Based Guidance for Exo-atmospheric Target Interception,” IEEE Transactions on Aerospace and Electronic Systems, Vol.56, No.6 , 2020, pp.4353-4366. DOI: [10.1109/TAES.2020.2990260](https://doi.org/10.1109/TAES.2020.2990260)
 
-- N. Cho, **Suwon Lee**, J. Kim, Y. Kim, S. Park, and C. Song, “Wind Compensation Framework for Unpowered-Aircraft Using Online Waypoint Correction,” IEEE Transactions on Aerospace and Electronic Systems, Vol. 56, No. 1, 2020, pp. 698-701. DOI: 10.1109/TAES.2019.2920219
+- N. Cho, **Suwon Lee**, J. Kim, Y. Kim, S. Park, and C. Song, “Wind Compensation Framework for Unpowered-Aircraft Using Online Waypoint Correction,” IEEE Transactions on Aerospace and Electronic Systems, Vol. 56, No. 1, 2020, pp. 698-701. DOI: [10.1109/TAES.2019.2920219](https://doi.org/10.1109/TAES.2019.2920219)
 
-- **Suwon Lee**, and Y. Kim, “Distributed Persistent Coverage Control and Performance Evaluation of Multi-agent System,” The Aeronautical Journal, Vol. 123, No. 1268, 2019, pp. 1701-1723. DOI: 10.1017/aer.2019.11
+- **Suwon Lee**, and Y. Kim, “Distributed Persistent Coverage Control and Performance Evaluation of Multi-agent System,” The Aeronautical Journal, Vol. 123, No. 1268, 2019, pp. 1701-1723. DOI: [10.1017/aer.2019.11](https://doi.org/10.1017/aer.2019.11)
 
 
 ## International Conference Papers
