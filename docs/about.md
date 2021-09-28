@@ -15,9 +15,8 @@ permalink: /about/
 ### Research Interests
 
 - UAVs, Drones, and Missiles
-- Path Planning
-- Guidance Algorithms
-- Aerospace Systems
+- Path Planning and Guidance Algorithms
+- Neural Networks
 - Nonlinear Control Systems
 - Optimization
 - System Identification
