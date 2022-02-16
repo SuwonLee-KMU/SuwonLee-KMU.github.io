@@ -20,7 +20,7 @@
 
 title: Suwon Lee
 author:
-  name: SuwonLee-Samsung
+  name: SuwonLee-KMU
   email: lsw7169@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This website is built with jekyll.
@@ -73,7 +73,7 @@ minima:
   # generate social links in footer
   social_links:
     # twitter: jekyllrb
-    github:  SuwonLee-Samsung
+    github:  SuwonLee-KMU
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
