@@ -14,7 +14,9 @@ permalink: /CV/
 
 ## Experiences
 
-- 2021.03.01 - Current: Staff Engineer, System Development, Smart Equipment Technology Team, Mechatronics R&D Center, Samsung Electronics
+- 2022.03.01 - Current: Assistant Professor, Department of Future Mobility, Kookmin University
+
+- 2021.03.01 - 2022.01.31: Staff Engineer, System Development, Smart Equipment Technology Team, Mechatronics R&D Center, Samsung Electronics
 
 - 2015.03.01 - 2021.02.28: Flight Dynamics and Control Lab, Seoul National University
 
@@ -132,7 +134,7 @@ DOI: [10.1109/ACCESS.2021.3060061](https://doi.org/10.1109/ACCESS.2021.3060061)
 
 - 국토교통부, 항공인력양성사업 항공특성화대학 학술발표대회 우수상, 2017년 2월.
 
-- Samsung Electronics, Sponsorship Program at Device Solutions, 2018년 11월
+- Samsung Electronics, Sponsorship Program at Device Solutions, 2018년 11월.
 
 
 ## Skills & Tools
