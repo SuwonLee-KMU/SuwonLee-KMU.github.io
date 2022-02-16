@@ -6,11 +6,9 @@ permalink: /about/
 ### Suwon Lee
 <img src="/SuwonLee.jpg" alt="Portrait" style="zoom:20%;" />
 
-- Staff Engineer
-- System Development
-- Smart Equipment Technology Team
-- Mechatronics R&D Center
-- Samsung Electronics
+- Assistant Professor
+- Department of Future Mobility
+- Kookmin University
 
 ### Research Interests
 
