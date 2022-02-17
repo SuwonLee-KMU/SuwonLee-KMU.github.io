@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "NAS에서 jupyter notebook 서버 띄워서 원격접속하기"
+date:   2022-02-18 00:22:00 +0900
+categories: ssh jupyter
+---
+
+(server) ssh서버 열기
+
+(local) ssh로 접속하기
+> 1. Windows의 경우, git bash에서 ssh를 지원한다.
+> 2. mac의 경우, terminal에서 ssh를 지원한다.
+> 3. `ssh [UserName]@[server_ip] -p [port]` 로 ssh 접속한다.
+> 4. `sudo -i`로 root계정에 접속한다.
+
+(server) pip 설치하기
+> 1. `wget https://bootstrap.pypa.io/get-pip.py` 
+> 2. `python3 get-pip.py`
+
+(server) jupyter 설치하기
+> `pip install jupyter`
+
+(server) 패스워드 설정하기
+> `jupyter notebook password`
+
+(server) jupyter notebook 실행하기
+> `jupyter notebook --ip:0.0.0.0 --no-browser --allow-root &`
+> - `--ip:0.0.0.0`: 외부접속을 위해서 해준다.
+> - `--no-browser`: 서버에서는 브라우저를 띄우지 않는다.
+> - `--allow-root`: root계정에서 jupyter notebook을 실행시키는 것은 기본적으로 막혀있다.
+> - `&`: 실행 후 터미널을 다시 쓸 수 있게 한다.
+
+(local) jupyter notebook 접속하기
