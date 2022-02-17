@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "PowerShell에서 conda 연동하기"
+date:   2022-02-17 21:24:00 +0900
+categories: windows powershell
+---
+
+## PowerShell에서 conda 연동하기
+
+Windows환경에서 conda를 설치하면 보통 windows terminal, powershell 등에서 사용하게 될 겁니다.
+
+처음 `conda activate base` 와 같은 명령어를 실행시키려고 하면 initialize가 되지 않았으니 먼저 해당 쉘에 대한 initialize를 수행한 뒤 하라고 안내문이 출력됩니다.
+
+그런데, 시키는 대로 `conda init powershell`을 실행시키고 쉘을 재시작해도 문제가 해결되지 않을 때가 있어요.
+
+이 때는 보통 PowerShell의 실행권한 문제라고 하는데, 해결방법으로 찾은 것이 다음과 같이 권한을 재설정하는 것입니다.
+
+> `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`
+
+위의 명령어는 PowerShell을 관리자 권한으로 실행해야 작동합니다.
+한편, 실행권한을 확인하는 명령어는 다음과 같습니다.
+
+> `Get-ExecutionPolicy -List`
+
+### 그런데 이렇게 해도 문제가 해결되지 않았습니다.
+
+알고 보니 이유는 PowerShell이 실행될 때 불러오는 설정파일(`profile.ps1`)이 올바르 경로에 생성되지 않았기 때문인데요, 원래는 보통 `conda init powershell`을 실행하면 이 설정파일이 올바른 위치에 알아서 생성됩니다.
+
+그런데 왜인지 이 설정파일이 이상한 경로에 생성될 때가 있습니다. 아마 원드라이브 문서폴더 동기화 기능 때문인 것 같다고 생각하는데, 아무튼 이 설정파일(`profile.ps1`)을 찾아서 올바른 위치에 옮겨주면 문제가 해결됩니다.
+
+원드라이브를 사용하는 경우, PowerShell 설정파일의 정상적인 디렉토리는 다음과 같습니다.
+
+> `C:\Users\[사용자명]\OneDrive\문서\PowerShell`
+> 
+> `C:\Users\[사용자명]\OneDrive\문서\WindowsPowerShell`
+
+이제 PowerShell에서 정상적으로 
+
+### 여담
+
+`profile.ps1` 파일은 bash의 `.bashrc` 파일, zsh의 `.zshrc`파일의 역할을 수행하는 것 같습니다.
+그래서 PowerShell이 처음 실행될 때 자동으로 설정파일 내부의 스크립트를 실행시킵니다.
+
+자동으로 실행되는 설정파일 말고 임의의 PowerShell 스크립트 파일을 실행시키려면 다음과 같이 dot sourcing을 사용합니다.
+
+> `. [실행시킬 스크립트 파일.ps1]`
+
+그래서 사실 위에서 설정파일의 위치를 정상적인 디렉토리로 옮기는 대신에 dot sourcing으로 실행시켜도 conda를 사용할 수 있습니다.
+그런데 PowerShell을 실행시킬 때마다 직접 dot sourcing으로 실행시키는 건 귀찮잖아요? 😂 
