@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Using Tensorflow on M1 mac"
+date:   2022-02-28 10:11:00 +0900
+categories: jekyll update
+---
+
+1. Install xcode.
+2. Remove miniconda.
+    - miniconda 디렉토리를 날려버리는 것으로 충분.
+3. Install miniforge3.
+    - https://github.com/conda-forge/miniforge
+4. `conda create -n [envname] python=3.8`
+5. 새로 생성한 가상환경으로 전환 후, `conda install -c apple tensorflow-deps`
+6. `pip install tensorflow-macos`
+7. `pip install tensorflow-metal`
+8. GPU 작동 테스트
+   ```python
+   import tensorflow as tf
+   print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
+   ```
+   
