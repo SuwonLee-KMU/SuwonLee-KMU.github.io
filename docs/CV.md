@@ -51,6 +51,8 @@ DOI: [10.1109/ACCESS.2021.3060061](https://doi.org/10.1109/ACCESS.2021.3060061)
 
 ## International Conference Papers
 
+- **Suwon Lee**, R. Tekin, “Impact Time Control With Bézier Curves,” Conference on Guidance, Navigation, and Control (CEAS EuroGNC 2022), Berlin, Germany, May 2022.
+
 - **Suwon Lee**, S. Lee, and Y. Kim, “Active Sampling-based Data-driven Reachability Verification for Proportional Navigation Guidance Law,” 21st IFAC Symposium on Automatic Control in Aerospace, Cranfield, UK, August 2019.
 
 - **Suwon Lee**, N. Cho, J. Kim, and Y. Kim, “Optimal Waypoint Planning for Gliding Vehicles using Particle Swarm Optimization,” 10th Asia-Pacific International Symposium on Aerospace Technology (APISAT-2018), Chengdu, China, October 2018.
