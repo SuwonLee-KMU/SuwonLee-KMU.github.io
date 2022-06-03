@@ -5,6 +5,13 @@ date:   2022-02-28 10:11:00 +0900
 categories: jekyll update
 ---
 
+### 22.06.03 Update
+아래 내용의 4단계가 제대로 작동하지 않는 문제가 있음. 애플 측에서 관리하는 패키지 채널에 문제가 있는 듯하다.
+
+---
+
+## Original Contents
+
 1. Install xcode.
 2. Remove miniconda.
     - miniconda 디렉토리를 날려버리는 것으로 충분.
