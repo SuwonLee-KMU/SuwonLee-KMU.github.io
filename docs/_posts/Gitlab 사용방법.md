@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Install and Using Gitlab on Docker Synology NAS"
-date:   2022-02-18 00:22:00 +0900
+date:   2022-06-03 16:13:00 +0900
 categories: Gitlab Docker Synology ssh
 ---
 
