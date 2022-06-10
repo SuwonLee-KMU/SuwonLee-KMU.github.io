@@ -1,10 +1,9 @@
 ---
 Author: Suwon Lee
 Date: June 10, 2022 11:44:48 AM GMT+9
-Title: Tensorflow-probability ODE Solver 사용하기
+title: "Tensorflow-probability ODE Solver 사용하기"
+categories: tensorflow
 ---
-
-# Tensorflow-probability ODE Solver 사용하기
 
 1. Stiff ODE Solver (`BDF`) 이 Non-stiff ODE Solver (`DormandPrince`) 보다 느리다.
 2. `GradientTape`을 계산하는 경우 그렇지 않은 경우보다 느리다.
@@ -31,10 +30,11 @@ class SimNet(tf.keras.layers.Layer): # tf.keras.Model 로 해도 된다.
     def solve_ode(self, parameters):
         t_init, t_fin = 0., 4.
         y_init = 0.
+        parameters = tf.expand_dims(parameters,axis=-1) # ZeroDivisionError가 발생하는 경우, 추가.
         with tf.GradientTape() as tape:
             tape.watch(parameters)
-                solution_times = tf.linspace(0,4,41)
-                solution = tfp.math.ode.DormandPrince().solve(
+            solution_times = tf.linspace(0,4,41)
+            solution = tfp.math.ode.DormandPrince().solve(
                 self.simple_ode,
                 t_init, y_init, solution_times=solution_times,
                 constants={'parameters': parameters}
