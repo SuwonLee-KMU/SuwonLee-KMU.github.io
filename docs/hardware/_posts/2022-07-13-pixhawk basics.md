@@ -4,7 +4,9 @@
 
 https://ardupilot.org/copter/docs/advanced-pixhawk-quadcopter-wiring-chart.html
 
-![](../assets/pixhawk_basics.assets/infographics.jpg)
+![info](/hardware/assets/pixhawk_basics.assets/infographics.jpg)
+
+![test](/research/_posts/2021-10-12-Optimization Result.md)
 
 ## 연결
 
